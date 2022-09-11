@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo Codo a Codo</title>
+    <link rel="shortcut icon" href="./imagenes/equipaje.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Turismo Codo a Codo</h1>
+        <nav>
+            <a href="index.html"><img src="./imagenes/equipaje.png" alt="equipaje" width="30"></a>
+            <a href="index.html">Home</a>
+            <a href="informacion.html">Información</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="registro.html">Registro</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <!--nombre, mail, intereses, comentarios, acepta información, -->
+        <br>
+        <form class="registro" action="show-data.html" method="post" enctype="multipart/form-data" target="_blank">
+            <div><label for="nombre">Nombre</label>
+            <input type="text" name="name" id="name">
+            <br>
+            
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id="mail"></div>
+            <br>
+            <div>
+            <label for="comentarios">Comentarios</label></div>
+            <br>
+           <div> <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Escribí aquí tu comentario..."></textarea></div>
+            <br>
+            
+            <div><label for="intereses">Intereses</label></div>
+            <br>
+               <div> <input type="checkbox" name="intereses" id="intereses" value="1">Bariloche
+                <br>
+                <input type="checkbox" name="intereses" id="intereses" value="2">Salta
+                <br>
+                <input type="checkbox" name="intereses" id="intereses" value="3">Posadas
+                <br>
+                <input type="checkbox" name="intereses" id="intereses" value="4">Ushuaia</div>
+                <br>
+                <br>
+
+            <div><input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar"></div>
+            
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </main>
+    <footer>
+        <nav>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./imagenes/facebook.png" alt="facebook" width="25"></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><img src="./imagenes/gorjeo.png" alt="twitter" width="25"></a>
+            <a href="https://wa.me/+5491101234567?text=por%20favor%20envieme%20info" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp" width="25"></a>
+            <a href="mailto:codoacodo@edu.com.ar" target="_blank"><img src="./imagenes/correo-electronico.png" alt="correo" width="25"></a>
+        </nav>
+        <p>Sitio web desarrollado en Práctica de los viernes</p>
+
+
+    </footer>
+</body>
+</html>

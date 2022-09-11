@@ -1,0 +1,20 @@
+   <a href="https://mendoza.tur.ar/" target="_blank"><img class="imgGaleria" src="./imagenes/mendoza.webp"
+                    alt="mendoza"></a>
+
+            <a href="http://www.turismosalta.gov.ar/" target="_blank"><img class="imgGaleria"
+                    src="./imagenes/salta.webp" alt="salta" width="400"></a>
+
+            <a href="http://www.turismosalta.gov.ar/" target="_blank"><img class="imgGaleria"
+                    src="./imagenes/ushuaia.webp" alt="ushuaia"></a>
+
+            <a href="https://misiones.tur.ar/posadas/" target="_blank"><img class="imgGaleria"
+                    src="./imagenes/posadas.webp" alt="posadas"></a>
+
+            <a href="https://mendoza.tur.ar/" target="_blank"><img class="imgGaleria" src="./imagenes/mendoza.webp"
+                    alt="mendoza"></a>
+
+            <a href="http://www.turismosalta.gov.ar/" target="_blank"><img class="imgGaleria"
+                    src="./imagenes/salta.webp" alt="salta" width="400"></a>
+
+            <a href="http://www.turismosalta.gov.ar/" target="_blank"><img class="imgGaleria"
+                    src="./imagenes/ushuaia.webp" alt="ushuaia"></a>

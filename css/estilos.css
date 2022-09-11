@@ -1,0 +1,100 @@
+* {
+    padding: 10;
+}
+
+.tarjeta {
+    width: 300px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+
+h1 {}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer {
+
+    background-color: rgb(15, 239, 94)
+}
+
+header {
+    background-color: rgb(15, 239, 94);
+}
+
+.centrado {
+    text-align: center;
+}
+
+.tarjeta>img {
+    width: 100%;
+}
+
+.tarjeta h2,
+.tarjeta p,
+.tarjeta a {
+    padding: 10px;
+}
+
+.tarjeta button {
+    background-color: lightslategray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+header a {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+header a:hover {
+    background-color: rgb(147, 147, 147);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    header a {
+        width: auto;
+        display: inline;
+
+
+
+    }
+.boton{
+    background-color: aquamarine
+    ;
+    border-radius: 5px;
+    margin
+}
+}
+.registro {
+    border: 1px solid;
+    width: 300px;
+    padding: 20px;
+    background-color: lightgrey;
+    margin: auto;
+}
+.registro label{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+    /*.imgGaleria{
+    width: 300px;
+}*/
